@@ -1,0 +1,132 @@
+* {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #1d2259;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.line {
+  margin-top: 1px;
+  width: 100%;
+  height: 40px;
+  background-color: #1d2259;
+  border-radius: 20px 20px 0 0;
+  position: absolute;
+  top: 0;
+  left: calc(1/2);
+  margin-top: calc(-1px/2);
+}
+
+main {
+  width: 40%;
+  margin: 0 auto;
+  background-color: transparent;
+  color: white;
+  -webkit-box-shadow: 2px 2px 2px 2px black;
+          box-shadow: 2px 2px 2px 2px black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 60%;
+  border-top: 3px  solid #f00a95;
+  border-radius: 30px;
+  font-family: sans-serif;
+}
+
+main .first {
+  margin-top: 20px;
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main .first .heads {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main .first .heads h1 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+main .first .heads h2 {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+main .first .circle {
+  border-radius: 50%;
+  width: 40px;
+  border: 1px solid #161616;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+main .first .circle .dot {
+  width: 2px;
+  height: 2px;
+  border: #fff;
+  background-color: #fff;
+  border-radius: 40px;
+}
+
+main .second {
+  width: 90%;
+  margin-top: 40px;
+  border: 1px solid red;
+}
+
+main .second p {
+  line-height: 1.3;
+  font-size: 16px;
+  font-weight: light;
+}
+/*# sourceMappingURL=style.css.map */
