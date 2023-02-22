@@ -212,7 +212,6 @@ main .people {
       align-self: flex-start;
   margin-left: 25px;
   width: 250px;
-  border: 1px solid saddlebrown;
 }
 
 main .people .image {
@@ -229,6 +228,17 @@ main .people .image {
   height: 55px;
   border-radius: 40px;
   border: 1px solid black;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+main .people .image:hover {
+  border: 1px solid white;
+}
+
+main .people .image:hover img {
+  -webkit-filter: opacity(0.2);
+          filter: opacity(0.2);
 }
 
 main .people .image img {
