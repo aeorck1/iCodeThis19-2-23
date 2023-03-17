@@ -23,7 +23,7 @@ body {
         top: -50%;
         left: -50%;
         z-index: -1;
-        background:linear-gradient(to bottom right,#1a2054, #1d2259);
+        background: linear-gradient(to bottom right, #1a2054, #1d2259);
         background-repeat: repeat;
         background-size: 100px;
         transform: rotate(60deg);
@@ -37,7 +37,7 @@ body {
         top: -50%;
         left: -50%;
         z-index: -1;
-        background:linear-gradient(to bottom right,#1a2054, #1d2259);
+        background: linear-gradient(to bottom right, #1a2054, #1d2259);
         background-repeat: repeat;
         background-size: 100px;
         transform: rotate(-60deg);
@@ -175,12 +175,14 @@ main {
             height: 55px;
             border-radius: 40px;
             border: 1px solid black;
-        transition: all .5s;
-            &:hover{
-                border: 1px solid white;
-                img{
-                        filter:opacity(.2);
-                    
+            transition: all .5s;
+
+            &:hover {
+                border: 1px solid rgb(134, 87, 87);
+
+                img {
+                    filter: opacity(.2);
+
                 }
             }
 
@@ -188,7 +190,7 @@ main {
                 width: 45px;
                 height: 45px;
                 border-radius: 40px;
-                
+
 
             }
         }
